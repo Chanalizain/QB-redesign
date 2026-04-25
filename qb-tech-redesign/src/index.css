@@ -15,4 +15,24 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+  /* Adjust this to match your Navbar height */
+}
+
+/* Custom scrollbar for a "Cinematic" feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e1e24;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
 }
