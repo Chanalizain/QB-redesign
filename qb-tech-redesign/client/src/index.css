@@ -16,10 +16,8 @@ body {
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
-  /* Adjust this to match your Navbar height */
 }
 
-/* Custom scrollbar for a "Cinematic" feel */
 ::-webkit-scrollbar {
   width: 8px;
 }
