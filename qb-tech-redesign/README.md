@@ -24,6 +24,39 @@ This project was developed as part of a professional internship preparation to d
 git clone https://github.com/Chanalizain/QB-redesign.git
 cd qb-tech-redesign
 ```
+## ⚙️ Setup Instructions
+
+Replace your current setup section with this:
+
+2. Backend Setup (Server)
+
+```Bash
+cd server
+npm install
+```
+Environment Configuration: Create a .env file in the server folder and add your MySQL credentials:
+
+```Code snippet
+DB_NAME=qb_tech_db
+DB_USER=root
+DB_PASSWORD=your_password
+DB_HOST=localhost
+PORT=5000
+```
+Initialize the Database: Run the sync script to create the necessary tables in your MySQL instance:
+
+```Bash
+npm run db:sync
+```
+Seed Sample Data: Populate the Jobs table with professional mock data so the Careers page is active immediately:
+
+```Bash
+npm run db:seed
+```
+Start the API:
+```bash
+npm run dev
+```
 
 ## 📂 Project Structure
 ```text
